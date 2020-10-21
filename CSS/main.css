@@ -3,7 +3,61 @@ font-family: 'Raleway', sans-serif; */
 
 body {font-family: montseratt, sans-serif;
 	font-size: 16px;}
+*, *:before,*:after {box-sizing: border-box; margin: 0; padding: 0;}
+ul, li {display: block;
+		padding: 0;
+		margin: 0;}
 
 
+/*Header*/
 
-/**/
+.header__section {background: url(../assets/images/Shopno.jpg) no-repeat center;
+				background-size: cover;
+				height: 100vh;
+				padding:65px 0px 195px 0px;}
+
+.menue__icon__block {text-align: right; position: relative;}
+
+.menue__icon {position: absolute;
+				top: 30%;
+				right: 15px;
+				cursor: pointer;
+				transition-property:transform;
+				transition-duration: 1s;}
+
+.menue__icon:hover {transform: rotate(-1080deg);}
+
+.header__title {text-align: center;
+				padding:195px 0px 140px 0px;
+				text-transform: uppercase;
+				font-size:33px;
+				color: #666666;}
+
+.header__title .header__title__text {font-weight: 800;
+						letter-spacing: 7px;
+						text-shadow: 5px 8px 7px #ccc;
+						line-height: 58px;}
+
+.header__title__text .marked__text {background: #b2f2ee;
+									padding:1px 9px;
+									text-shadow: 5px 8px 7px #99cccc;}
+
+.header__button {border: solid 2px #777879;
+				width:232px; height: 53px;
+				color: #777879;
+				text-transform: uppercase;
+				font-size:18px;
+				display: block;
+				margin: auto;
+				background:transparent;
+				cursor: pointer;
+				letter-spacing: 4px;
+				transition-property:transform width height background border-radius;
+				transition-duration: 1s;}
+
+.header__button:hover {transform: rotate(360deg);
+						width: 150px;
+						height: 150px;
+						background: #b2f2ee;
+						border-radius: 50%;
+						transform-origin: center;}
