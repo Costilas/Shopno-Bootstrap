@@ -104,21 +104,19 @@ div .section__headding__padding {padding-bottom: 150px;}
 						height: 100%;}
 
 .slider__background {width: 100%;
-					max-width: 480px;
-					height: 96%;
+					height: 77%;
 					background:#edeef0;
 					position: absolute;
-					
+					top:7%;
 					z-index: 1;}
 
 .slider__image__block {	width:80%;
 						box-shadow: 3px -5px 18px #ebeced;
 						overflow: hidden;
 						margin: auto;
-						position:absolute;
-						z-index: 2;
-						top: -12%;
-						left: 9%;}
+						position: relative;
+						z-index: 2;}
+						
 .slider__image {object-fit: cover;
 				width: 100%;}
 
