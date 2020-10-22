@@ -116,7 +116,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 						margin: auto;
 						position: relative;
 						z-index: 2;}
-						
+
 .slider__image {object-fit: cover;
 				width: 100%;}
 
@@ -138,6 +138,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 
 .works__image__block {overflow: hidden;}
 
-.works__image {object-fit: cover;}
+.works__image {object-fit: cover;
+				width: 100%;}
 
 .works__image__padding {margin-bottom: 30px;}
