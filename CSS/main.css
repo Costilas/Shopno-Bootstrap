@@ -8,12 +8,12 @@ ul, li {display: block;
 		padding: 0;
 		margin: 0;}
 
-.section__padding {padding: 125px 0;}
+.section__padding {padding-bottom: 125px;}
 
 /* Section headdings*/
 .section__headding {text-align: center;
 					text-transform: uppercase;
-					padding-bottom: 125px;}
+					padding: 125px 0px;}
 
 .section__headding h2 {font-weight:bold;
 						font-size:38px;}
@@ -22,6 +22,9 @@ ul, li {display: block;
 						color:#999999;}
 div .section__headding__padding {padding-bottom: 150px;}
 
+@media screen and (min-width: 1200px){
+.container {max-width:1170px}
+}
 /*Header*/
 
 .header__section {background: url(../assets/images/Shopno.jpg) no-repeat center;
@@ -76,7 +79,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 						transform-origin: center;}
 
 /* About */
-section .about__section {background: #f8fafa;}
+.about__section {background: #f8fafa;}
 
 .about__information__block {width: 83%; margin: auto;}
 
@@ -126,3 +129,13 @@ section .about__section {background: #f8fafa;}
 				cursor: pointer;}
 
 .slider__point:hover {background: #b2f2ee;}
+
+
+
+
+
+.works__image__block {overflow: hidden;}
+
+.works__image {object-fit: cover;}
+
+.works__image__padding {margin-bottom: 30px;}
