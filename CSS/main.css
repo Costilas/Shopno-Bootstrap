@@ -193,9 +193,8 @@ div .section__headding__padding {padding-bottom: 150px;}
 							text-transform: uppercase;}
 
 
-.know__btn__block {display: flex;
-					vertical-align: center;
-					cursor: pointer;}
+.know__btn__block {cursor: pointer;
+					position: relative;}
 
 .know__btn {text-decoration: none;
 			text-transform: uppercase;
@@ -203,10 +202,19 @@ div .section__headding__padding {padding-bottom: 150px;}
 			font-weight: 500;
 			color:#ccc;}
 
-.arrow {display: inline-block;
-		line-height: 20px;
+
+.arrow {background: url(../assets/images/arrow.png) center no-repeat;
+		height: 20px;
+		width: 30px;
+		display: inline-block;
 		margin-left: 10px;
-		color:#ccc;}
+		position: absolute;
+		z-index: 1;
+		top:6%;}
+
+.know__btn:hover {text-decoration: none;
+					color:#fff;}
+.know__btn:hover div {background: url(../assets/images/arrow-for-change.png) center no-repeat;}
 
 .cross__block {position: relative;}
 
