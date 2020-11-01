@@ -241,26 +241,30 @@ div .section__headding__padding {padding-bottom: 150px;}
 
 
 
-/* Services*/
+/* Team*/
+.team {padding-bottom: 50px;}
 
 .team__image__block {width: 100%;
 					overflow: hidden;
 					position: relative;
 					z-index: 1;
-					padding: 0px 15px;}
+					padding: 0px 15px;
+					cursor: pointer;}
 
 .team__member__image {width: 100%;
 					object-fit: cover;}
 
-.team__image__hover {width: 79%;
+.team__image__hover {width: 84%;
 					height: 220px;
 					position: absolute;
 					z-index: 2;
 					background-color:#71f6eb;
 					display: none;
 					top:42%;
-					left: 11%;
-					box-shadow: 3px -5px 18px #ebeced;}
+					left: 8%;
+					box-shadow: 3px -5px 18px #ebeced;
+					padding: 40px;
+					cursor: pointer;}
 
 .team__image__block:hover .team__image__hover{display: block;}
 
@@ -273,3 +277,22 @@ div .section__headding__padding {padding-bottom: 150px;}
 				left: 20%;
 				position: absolute;
 				z-index: 2;}
+
+.team__name {font-weight:bold;
+			font-family: 'Merriweather', serif;
+			font-size:20px;}
+
+.team__role {font-family: 'Merriweather', serif;
+			font-size:15px;
+			font-style: italic;
+			color: #767070;}
+
+.team__worker__text {font-family: 'Raleway', sans-serif;}
+
+.team__socials i{font-weight:900;
+				margin-right: 10px;
+				cursor: pointer;}
+
+.team__socials i:hover {color:#fff;}
+
+.team__upper {margin-bottom: 30px;}
