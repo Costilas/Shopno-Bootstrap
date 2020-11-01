@@ -145,7 +145,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 
 
 /*service*/
-
+.services {background: #f8fafa;}
 
 .service__image__block {background: url(../assets/images/service_1.jpg) no-repeat center;
 						background-size: cover;
@@ -241,3 +241,35 @@ div .section__headding__padding {padding-bottom: 150px;}
 
 
 
+/* Services*/
+
+.team__image__block {width: 100%;
+					overflow: hidden;
+					position: relative;
+					z-index: 1;
+					padding: 0px 15px;}
+
+.team__member__image {width: 100%;
+					object-fit: cover;}
+
+.team__image__hover {width: 79%;
+					height: 220px;
+					position: absolute;
+					z-index: 2;
+					background-color:#71f6eb;
+					display: none;
+					top:42%;
+					left: 11%;
+					box-shadow: 3px -5px 18px #ebeced;}
+
+.team__image__block:hover .team__image__hover{display: block;}
+
+.triangle__up {width: 0;
+				height: 0;
+				border-left: 15px solid transparent;
+				border-right: 15px solid transparent;
+				border-bottom: 30px solid #71f6eb;
+				top:-13%;
+				left: 20%;
+				position: absolute;
+				z-index: 2;}
