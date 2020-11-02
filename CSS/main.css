@@ -247,7 +247,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 					overflow: hidden;
 					position: relative;
 					z-index: 1;
-					padding: 0px 15px;
+					padding: 0px 0px;
 					cursor: pointer;}
 
 .team__member__image {width: 100%;
@@ -302,7 +302,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 
 
 /* What they say*/
-.they__say {padding-bottom: 50px;
+.they__say {padding-bottom: 140px;
 			background: #f9fbfb;}
 
 
@@ -366,3 +366,45 @@ div .section__headding__padding {padding-bottom: 150px;}
 					font-weight:bold;}
 
 .right__slider__button {margin-left: 30px;}
+
+
+.logos {padding: 100px 0 50px 0;}
+ 
+.logo__box {width: 100%;
+			height: 50px;
+			overflow: hidden;
+			position: relative;}
+
+.box__image {object-fit: cover;
+			position: absolute;
+			z-index: 1;
+			top:0%;
+			left: 0%;
+			background: transparent;}
+
+.lower__logo__row {margin-top: 30px;
+					justify-content: space-between;}
+
+
+
+
+/* Contacts*/
+
+.contacts {padding: 120px 0;
+			background: url(../assets/images/Contact.jpg) no-repeat;
+			background-position: center;
+			background-size: cover;}
+
+.contact__map__block, .contact__form__block {
+						width: 100%;
+						height: 460px;
+						background: #465761;
+						opacity: 0.9;
+						color:#edeef0;}
+
+.contact__map__block {padding: 20px;}
+
+
+
+
+.contact__form__block {padding: 30px;}
