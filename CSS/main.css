@@ -445,3 +445,43 @@ input::placeholder, textarea::placeholder {color:#ccc;}
 
 .contact__map__window {width: 100%;
 						height:200px;}
+
+
+
+
+/*footer*/
+
+footer {background: #262b2e;
+		padding:90px 0;
+		color: #ccc;}
+.footer__content {width: 100%;
+				margin: 0 auto;
+				text-align: center;}
+
+.footer__content h3 {font-family: 'Raleway', sans-serif;
+					font-size:16px;
+						text-transform: uppercase;}
+
+.follow__buttons__block {justify-content: center;
+						width: 100%;}
+
+.follow__button {width: 40px;
+				height: 40px;
+				background: #3f4244;
+				margin: 0 4px;
+				position: relative;}
+
+
+.follow__button:hover {background: #6eeee4;}
+
+.follow__button:hover i{color: black;}
+
+.follow__button i{position: absolute;
+					z-index: 1;
+					top:31%;
+					left: 41%;}
+
+.copyright {margin-top:30px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 500;
+			font-size:16px;}
