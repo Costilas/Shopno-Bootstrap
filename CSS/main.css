@@ -22,9 +22,7 @@ ul, li {display: block;
 						color:#999999;}
 div .section__headding__padding {padding-bottom: 150px;}
 
-@media screen and (min-width: 1200px){
-.container {max-width:1170px}
-}
+.html__validation {display: none;}
 /*Header*/
 
 .header__section {background: url(../assets/images/Shopno.jpg) no-repeat center;
@@ -85,7 +83,7 @@ div .section__headding__padding {padding-bottom: 150px;}
 .about__lower__article h4 {font-size:17px;
 							margin-bottom: 15px;}
 
-.about__upper__article , .about__lower__article p {margin-bottom: 20px;
+.about__upper__article, .about__lower__article p {margin-bottom: 20px;
 						font-family: 'Raleway', sans-serif;
 						font-size:16px;
 						color: #999999;
@@ -432,6 +430,7 @@ input::placeholder, textarea::placeholder {color:#ccc;}
 					margin-top:40px;
 					border-radius: 3px;}
 
+.form_button {cursor: pointer;}
 
 .contact__map__block .contact__map__info__block {color:#ccc;
 												font-size:15px;
@@ -446,6 +445,10 @@ input::placeholder, textarea::placeholder {color:#ccc;}
 .contact__map__window {width: 100%;
 						height:200px;}
 
+.contact__map__window iframe {width: 100%;
+								height: 100%;}
+
+.map__item {border:none;}
 
 
 
@@ -481,7 +484,35 @@ footer {background: #262b2e;
 					top:31%;
 					left: 41%;}
 
+
+
 .copyright {margin-top:30px;
 			font-family: 'Raleway', sans-serif;
 			font-weight: 500;
 			font-size:16px;}
+
+
+/* Adaptive */
+
+@media screen and (min-width: 1200px){.container {max-width:1170px;}}
+
+
+@media screen and (max-width: 991px) { 
+
+	.say__slider {padding-left:0;
+					margin-bottom: 40px;}
+	.say__content__slider {padding-right:0;}
+	.say__stars__block {margin-bottom: 20px;}
+	.content__slider__buttons {bottom: -11%;
+								right:41%;}
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+		.say__background {height: 62%;
+						top: 13%;}
+		.say__slider__block {padding-top: 35px;}
+		.say__text__block {margin-bottom: 30px;}
+
+}
